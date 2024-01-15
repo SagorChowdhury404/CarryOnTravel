@@ -68,9 +68,40 @@ body {
 
 
 /* <!-- headerBannerSection --> */
+.headerBannerSection {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
 
 
+}
 
+.bannerContentSection {
+    padding: 90px;
+}
+
+.bannerContent {
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.headerBannerTitle {
+    font-size: 64px;
+}
+
+.headerBannerDescription {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.BannerInputBox {
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+}
 
 
 /* Responsive for ph  */
@@ -90,8 +121,21 @@ body {
         text-decoration: none;
     }
 
+    /* ----------------------- */
+    .bannerContentSection {
+        padding: 10px;
+    }
 
+    .headerBannerTitle {
+        font-size: 34px;
+        margin-top: 20px;
+    }
 
+    .BannerInputBox {
+        display: block;
+        margin: 10px auto;
+
+    }
 
 }
 
