@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* mulish font (Google font) */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Roboto&family=Work+Sans:wght@400;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 100px;
+}
+
+/* <!-- navSection --> */
+/* <!-- ///////////////////////////////////////////////// --> */
+.navSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.webName {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.webTitle {
+    color: #FF5400;
+}
+
+
+
+.navTitles {
+    display: flex;
+
+}
+
+#threeDot {
+    display: none;
+}
+
+
+.navTitles>li {
+    text-decoration: none;
+    display: flex;
+    margin-left: 44px;
+
+}
+
+
+
+.navTitle a {
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+
+
+
+
+/* <!-- headerBannerSection --> */
+
+
+
+
+
+/* Responsive for ph  */
+/* <!-- ///////////////////////////////////////////////// --> */
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px 30px;
+    }
+
+    .navTitles {
+        display: none;
+    }
+
+    #threeDot {
+        display: block;
+        text-decoration: none;
+    }
+
+
+
+
+}
+
+
+
+
+/* Responsive for Leptop  */
+/* <!-- ///////////////////////////////////////////////// --> */
