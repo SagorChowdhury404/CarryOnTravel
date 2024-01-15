@@ -69,9 +69,11 @@ body {
 
 /* <!-- headerBannerSection --> */
 .headerBannerSection {
+    margin: 40px 0px;
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
+    border-radius: 15px;
 
 
 }
@@ -97,11 +99,67 @@ body {
 
 .BannerInputBox {
     margin-top: 10px;
-    padding: 20px 30px;
+    padding: 20px 5px;
     border-radius: 15px;
     text-align: center;
     font-size: 16px;
+    font-weight: bold;
 }
+
+#BannerInputBox1 {
+    background-color: #FF5400;
+}
+
+/* ///////////////////////////////////////////////// */
+/* main  */
+/* Popular-Tours-section */
+
+.Popular-Tours-section {
+    display: flex;
+    margin: 50px 0;
+}
+
+.PopularToursContentSection {
+    padding: 10px;
+}
+
+.PopularTourImage {
+    width: 100%;
+    height: 450px;
+}
+
+.PopularToursTittle {
+    font-size: 40px;
+
+    margin-bottom: 25px;
+}
+
+.PopularToursDescription {
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.PopularToursDescriptions {
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive for ph  */
@@ -135,6 +193,11 @@ body {
         display: block;
         margin: 10px auto;
 
+    }
+
+    /* main-->> Popular-Tours-section */
+    .Popular-Tours-section {
+        flex-direction: column;
     }
 
 }
