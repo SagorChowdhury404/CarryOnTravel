@@ -190,7 +190,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: span 3 6 3;
-    /* gap: 60px; */
+    gap: 20px;
 
 }
 
@@ -217,15 +217,28 @@ body {
 .whyChooseUs {
     padding: 20px;
     border: 1px solid #ddd;
-    background-color: #f2dcc3;
+    background-color: #f4f0ec;
     border-radius: 20px;
+    width: 473px;
+    /* height: 180px; */
+    align-items: center;
+    padding-top: 100px;
+}
+
+#whyChooseusCard2 {
+    background-color: #e4ecec;
 }
 
 #whyChooseusCard3 {
     grid-column: span 2;
     width: 50%;
     margin: 0 auto;
+
 }
+
+
+
+
 
 
 /* newslater  */
@@ -268,10 +281,29 @@ body {
 }
 
 .NewsletterContainer {
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 
 
+footer {
+    background-color: #e8e8ee;
+    padding: 50px;
+
+}
+
+#footerSectionTittle {
+    display: block;
+    justify-content: center;
+    margin: 70px 0 15px 0px;
+}
+
+#footerSection {
+    text-align: center;
+}
+
+.socialMedia {
+    padding-bottom: 150px;
+}
 
 
 
@@ -371,6 +403,14 @@ body {
         grid-template-columns: repeat(1, 1fr);
         /* gap: 20px; */
         width: 100%;
+    }
+
+    #whyChooseusCard2 {}
+
+    #whyChooseusCard3 {
+
+        width: 100%;
+
     }
 
     /* /////////////////////////// */
