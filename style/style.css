@@ -36,8 +36,6 @@ body {
     color: #FF5400;
 }
 
-
-
 .navTitles {
     display: flex;
 
@@ -62,9 +60,6 @@ body {
     font-size: 18px;
 
 }
-
-
-
 
 
 /* <!-- headerBannerSection --> */
@@ -124,7 +119,6 @@ body {
     padding-right: 50px;
 }
 
-
 .PopularTourImage {
     width: 540px;
     height: 450px;
@@ -163,10 +157,11 @@ body {
 /* ChooseDestinationSection--------------- */
 
 
+
 .ChooseDestinationTitle {
     font-size: 40px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .ChooseDestinationDescription {
@@ -174,24 +169,37 @@ body {
     text-align: center;
 }
 
-.ChooseDestinationPlace {
-    width: 80%;
+.Destination-1-2-Place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
-.Destination-1-2-Place {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.DestinationPlaceFirstRow {
+    height: 300px;
+    width: 525px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    font-size: 30px;
+    color: whitesmoke
 }
 
 .Destination-3-4-5-Place {
-    margin: 20px 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-right: 500px;
+    grid-column: span 3 6 3;
+    /* gap: 60px; */
+
 }
+
+.DestinationPlaceSecoundRow {
+    height: 300px;
+    width: 100%;
+}
+
+.Destination-3-4-5-Place {}
 
 .Destination-6-7-Place {
     display: grid;
@@ -199,17 +207,25 @@ body {
     gap: 20px;
 }
 
+/* /////////////////////////////// */
+#whyChooseUsSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
+.whyChooseUs {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f2dcc3;
+    border-radius: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+#whyChooseusCard3 {
+    grid-column: span 2;
+    width: 50%;
+    margin: 0 auto;
+}
 
 
 /* Responsive for ph  */
@@ -257,16 +273,19 @@ body {
         margin-top: 20px;
     }
 
+    /* ChooseDestinationSection */
+
+    /* ChooseDestinationContent */
     .ChooseDestinationContent {
         display: table-cell;
         text-align: center;
         vertical-align: middle;
-        padding-left: 30px;
+        /* /* padding-left: 30px; */
     }
 
-    .ChooseDestinationPlace>img {
+    /* .ChooseDestinationPlace>img {
         width: 335px;
-    }
+    } */
 
     .Destination-1-2-Place {
         display: block;
@@ -274,12 +293,13 @@ body {
         gap: 20px;
     }
 
-    .Destination-1-2-Place>img {
+    .DestinationPlaceFirstRow {
         width: 435px;
         height: 236px;
 
     }
 
+    /* ----------------- */
     .Destination-3-4-5-Place {
         margin: 20px 0px;
         display: block;
@@ -300,10 +320,17 @@ body {
         width: 100%;
     }
 
-    .Destination-6-7-Place>img {
-        width: 435px;
-        height: 236px;
+    /* /////////////////////////// */
+    .whyChooseUs  {
+        width: 100%;
+        margin: 10px;
+
     }
+
+    #whyChooseUsSection {
+        display: block;
+    }
+
 
 }
 
