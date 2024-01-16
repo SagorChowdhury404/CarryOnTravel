@@ -117,20 +117,21 @@ body {
 .Popular-Tours-section {
     display: flex;
     margin: 50px 0;
+    /* margin-right: 50px; */
 }
 
 .PopularToursContentSection {
-    padding: 10px;
+    padding-right: 50px;
 }
 
+
 .PopularTourImage {
-    width: 100%;
+    width: 540px;
     height: 450px;
 }
 
 .PopularToursTittle {
     font-size: 40px;
-
     margin-bottom: 25px;
 }
 
@@ -139,15 +140,64 @@ body {
     margin: 20px 0px;
 }
 
-.PopularToursDescriptions {
-    font-size: 16px;
-    padding-left: 20px;
+
+.PopularToursDescriptionTitle {
     margin: 20px 0px;
 }
 
+.PopularToursDescriptions {
+    font-size: 16px;
+    padding-left: 22px;
+    margin: 20px 0px;
+}
+
+.PopularTourBtn {
+    background-color: #FF5400;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ChooseDestinationSection--------------- */
 
 
+.ChooseDestinationTitle {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.ChooseDestinationDescription {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.ChooseDestinationPlace {
+    width: 80%;
+}
+
+.Destination-1-2-Place {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Destination-3-4-5-Place {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-right: 500px;
+}
+
+.Destination-6-7-Place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
 
 
@@ -196,8 +246,63 @@ body {
     }
 
     /* main-->> Popular-Tours-section */
+
     .Popular-Tours-section {
         flex-direction: column;
+
+    }
+
+    .PopularTourImage {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ChooseDestinationContent {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        padding-left: 30px;
+    }
+
+    .ChooseDestinationPlace>img {
+        width: 335px;
+    }
+
+    .Destination-1-2-Place {
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .Destination-1-2-Place>img {
+        width: 435px;
+        height: 236px;
+
+    }
+
+    .Destination-3-4-5-Place {
+        margin: 20px 0px;
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px 0px; */
+        width: 100%;
+    }
+
+    .Destination-3-4-5-Place>img {
+        width: 435px;
+        height: 236px;
+    }
+
+    .Destination-6-7-Place {
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px; */
+        width: 100%;
+    }
+
+    .Destination-6-7-Place>img {
+        width: 435px;
+        height: 236px;
     }
 
 }
